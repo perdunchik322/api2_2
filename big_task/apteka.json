@@ -1,0 +1,1105 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "ResponseMetaData": {
+      "SearchResponse": {
+        "found": 46,
+        "display": "multiple",
+        "boundedBy": [
+          [
+            37.5663428,
+            55.80044108
+          ],
+          [
+            37.64628598,
+            55.84531193
+          ]
+        ]
+      },
+      "SearchRequest": {
+        "request": "аптека",
+        "skip": 0,
+        "results": 10,
+        "boundedBy": [
+          [
+            37.048427,
+            55.43644866
+          ],
+          [
+            38.175903,
+            56.04690174
+          ]
+        ]
+      }
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.598453,
+          55.826963
+        ]
+      },
+      "properties": {
+        "name": "Аптека",
+        "description": "Ботаническая ул., 17, корп. 2, Москва, Россия",
+        "boundedBy": [
+          [
+            37.594459,
+            55.824582
+          ],
+          [
+            37.602669,
+            55.829203
+          ]
+        ],
+        "uri": "ymapsbm1://org?oid=129898206780",
+        "CompanyMetaData": {
+          "id": "129898206780",
+          "name": "Аптека",
+          "address": "Москва, Ботаническая улица, 17, корп. 2",
+          "Address": {
+            "country_code": "RU",
+            "formatted": "Москва, Ботаническая улица, 17, корп. 2",
+            "postal_code": "",
+            "additional_info": "",
+            "Components": [
+              {
+                "kind": "country",
+                "name": "Россия"
+              },
+              {
+                "kind": "province",
+                "name": "Центральный федеральный округ"
+              },
+              {
+                "kind": "province",
+                "name": "Москва"
+              },
+              {
+                "kind": "locality",
+                "name": "Москва"
+              },
+              {
+                "kind": "street",
+                "name": "Ботаническая улица"
+              },
+              {
+                "kind": "house",
+                "name": "17, корп. 2"
+              }
+            ]
+          },
+          "url": "https://msk.vapteke.ru/apts/87547",
+          "Phones": [
+            {
+              "type": "phone",
+              "formatted": "+7 (499) 705-79-00"
+            }
+          ],
+          "Categories": [
+            {
+              "class": "drugstores",
+              "name": "Аптека"
+            }
+          ],
+          "Hours": {
+            "text": "пн-пт 09:00–22:00; сб,вс 10:00–21:00",
+            "Availabilities": [
+              {
+                "Intervals": [
+                  {
+                    "from": "09:00:00",
+                    "to": "22:00:00"
+                  }
+                ],
+                "Monday": true,
+                "Tuesday": true,
+                "Wednesday": true,
+                "Thursday": true,
+                "Friday": true
+              },
+              {
+                "Intervals": [
+                  {
+                    "from": "10:00:00",
+                    "to": "21:00:00"
+                  }
+                ],
+                "Saturday": true,
+                "Sunday": true
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.5927,
+          55.831543
+        ]
+      },
+      "properties": {
+        "name": "Столички",
+        "description": "Большая Марфинская ул., 4, Москва, Россия",
+        "boundedBy": [
+          [
+            37.588862,
+            55.829123
+          ],
+          [
+            37.597073,
+            55.833744
+          ]
+        ],
+        "uri": "ymapsbm1://org?oid=1129126168",
+        "CompanyMetaData": {
+          "id": "1129126168",
+          "name": "Столички",
+          "address": "Москва, Большая Марфинская улица, 4",
+          "Address": {
+            "country_code": "RU",
+            "formatted": "Москва, Большая Марфинская улица, 4",
+            "postal_code": "127276",
+            "additional_info": "",
+            "Components": [
+              {
+                "kind": "country",
+                "name": "Россия"
+              },
+              {
+                "kind": "province",
+                "name": "Центральный федеральный округ"
+              },
+              {
+                "kind": "province",
+                "name": "Москва"
+              },
+              {
+                "kind": "locality",
+                "name": "Москва"
+              },
+              {
+                "kind": "street",
+                "name": "Большая Марфинская улица"
+              },
+              {
+                "kind": "house",
+                "name": "4"
+              }
+            ]
+          },
+          "url": "https://stolichki.ru/",
+          "Phones": [
+            {
+              "type": "phone",
+              "formatted": "*115"
+            },
+            {
+              "type": "phone",
+              "formatted": "+7 (495) 215-52-15"
+            }
+          ],
+          "Categories": [
+            {
+              "class": "drugstores",
+              "name": "Аптека"
+            },
+            {
+              "class": "malls",
+              "name": "Магазин медицинских товаров"
+            },
+            {
+              "class": "malls",
+              "name": "Товары для здоровья"
+            }
+          ],
+          "Hours": {
+            "text": "пн-пт 08:00–22:00; сб,вс 09:00–21:00",
+            "Availabilities": [
+              {
+                "Intervals": [
+                  {
+                    "from": "08:00:00",
+                    "to": "22:00:00"
+                  }
+                ],
+                "Monday": true,
+                "Tuesday": true,
+                "Wednesday": true,
+                "Thursday": true,
+                "Friday": true
+              },
+              {
+                "Intervals": [
+                  {
+                    "from": "09:00:00",
+                    "to": "21:00:00"
+                  }
+                ],
+                "Saturday": true,
+                "Sunday": true
+              }
+            ]
+          },
+          "Features": [
+            {
+              "id": "wheelchair_access",
+              "value": [
+                {
+                  "id": "unavailable",
+                  "name": "недоступно"
+                }
+              ],
+              "name": "доступность входа на инвалидной коляске",
+              "type": "enum"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.62351,
+          55.822214
+        ]
+      },
+      "properties": {
+        "name": "Диалог",
+        "description": "ул. Академика Королёва, 8А, Москва, Россия",
+        "boundedBy": [
+          [
+            37.619144,
+            55.81997
+          ],
+          [
+            37.627355,
+            55.824592
+          ]
+        ],
+        "uri": "ymapsbm1://org?oid=28938068308",
+        "CompanyMetaData": {
+          "id": "28938068308",
+          "name": "Диалог",
+          "address": "Москва, улица Академика Королёва, 8А",
+          "Address": {
+            "country_code": "RU",
+            "formatted": "Москва, улица Академика Королёва, 8А",
+            "postal_code": "",
+            "additional_info": "",
+            "Components": [
+              {
+                "kind": "country",
+                "name": "Россия"
+              },
+              {
+                "kind": "province",
+                "name": "Центральный федеральный округ"
+              },
+              {
+                "kind": "province",
+                "name": "Москва"
+              },
+              {
+                "kind": "locality",
+                "name": "Москва"
+              },
+              {
+                "kind": "street",
+                "name": "улица Академика Королёва"
+              },
+              {
+                "kind": "house",
+                "name": "8А"
+              }
+            ]
+          },
+          "url": "https://dialog.ru/",
+          "Phones": [
+            {
+              "type": "phone",
+              "formatted": "+7 (495) 363-22-62"
+            },
+            {
+              "type": "phone",
+              "formatted": "+7 (495) 788-15-65"
+            }
+          ],
+          "Categories": [
+            {
+              "class": "drugstores",
+              "name": "Аптека"
+            },
+            {
+              "class": "drugstores",
+              "name": "Фитопродукция, БАДы"
+            },
+            {
+              "class": "fallback services",
+              "name": "Медицинские изделия и расходные материалы"
+            }
+          ],
+          "Hours": {
+            "text": "пн-пт 09:00–22:00; сб,вс 09:00–21:00",
+            "Availabilities": [
+              {
+                "Intervals": [
+                  {
+                    "from": "09:00:00",
+                    "to": "22:00:00"
+                  }
+                ],
+                "Monday": true,
+                "Tuesday": true,
+                "Wednesday": true,
+                "Thursday": true,
+                "Friday": true
+              },
+              {
+                "Intervals": [
+                  {
+                    "from": "09:00:00",
+                    "to": "21:00:00"
+                  }
+                ],
+                "Saturday": true,
+                "Sunday": true
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.578117,
+          55.819358
+        ]
+      },
+      "properties": {
+        "name": "Здоров.ру",
+        "description": "ул. Яблочкова, 21А, Москва, Россия",
+        "boundedBy": [
+          [
+            37.574166,
+            55.817183
+          ],
+          [
+            37.582376,
+            55.821805
+          ]
+        ],
+        "uri": "ymapsbm1://org?oid=77477145060",
+        "CompanyMetaData": {
+          "id": "77477145060",
+          "name": "Здоров.ру",
+          "address": "Москва, улица Яблочкова, 21А",
+          "Address": {
+            "country_code": "RU",
+            "formatted": "Москва, улица Яблочкова, 21А",
+            "postal_code": "127322",
+            "additional_info": "этаж 1",
+            "Components": [
+              {
+                "kind": "country",
+                "name": "Россия"
+              },
+              {
+                "kind": "province",
+                "name": "Центральный федеральный округ"
+              },
+              {
+                "kind": "province",
+                "name": "Москва"
+              },
+              {
+                "kind": "locality",
+                "name": "Москва"
+              },
+              {
+                "kind": "street",
+                "name": "улица Яблочкова"
+              },
+              {
+                "kind": "house",
+                "name": "21А"
+              }
+            ]
+          },
+          "url": "http://zdorov.ru/",
+          "Phones": [
+            {
+              "type": "phone",
+              "formatted": "+7 (495) 363-35-00"
+            }
+          ],
+          "Categories": [
+            {
+              "class": "drugstores",
+              "name": "Аптека"
+            }
+          ],
+          "Hours": {
+            "text": "ежедневно, 08:00–22:00",
+            "Availabilities": [
+              {
+                "Intervals": [
+                  {
+                    "from": "08:00:00",
+                    "to": "22:00:00"
+                  }
+                ],
+                "Everyday": true
+              }
+            ]
+          },
+          "Features": [
+            {
+              "id": "wheelchair_access",
+              "value": [
+                {
+                  "id": "full_access",
+                  "name": "доступно"
+                }
+              ],
+              "name": "доступность входа на инвалидной коляске",
+              "type": "enum"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.642038,
+          55.820722
+        ]
+      },
+      "properties": {
+        "name": "Здоров.ру",
+        "description": "просп. Мира, 146, Москва, Россия",
+        "boundedBy": [
+          [
+            37.637937,
+            55.818331
+          ],
+          [
+            37.646148,
+            55.822953
+          ]
+        ],
+        "uri": "ymapsbm1://org?oid=4294899242",
+        "CompanyMetaData": {
+          "id": "4294899242",
+          "name": "Здоров.ру",
+          "address": "Москва, проспект Мира, 146",
+          "Address": {
+            "country_code": "RU",
+            "formatted": "Москва, проспект Мира, 146",
+            "postal_code": "129366",
+            "additional_info": "",
+            "Components": [
+              {
+                "kind": "country",
+                "name": "Россия"
+              },
+              {
+                "kind": "province",
+                "name": "Центральный федеральный округ"
+              },
+              {
+                "kind": "province",
+                "name": "Москва"
+              },
+              {
+                "kind": "locality",
+                "name": "Москва"
+              },
+              {
+                "kind": "street",
+                "name": "проспект Мира"
+              },
+              {
+                "kind": "house",
+                "name": "146"
+              }
+            ]
+          },
+          "url": "https://zdorov.ru/",
+          "Phones": [
+            {
+              "type": "phone",
+              "formatted": "+7 (495) 363-35-00"
+            }
+          ],
+          "Categories": [
+            {
+              "class": "drugstores",
+              "name": "Аптека"
+            }
+          ],
+          "Hours": {
+            "text": "ежедневно, 07:00–23:00",
+            "Availabilities": [
+              {
+                "Intervals": [
+                  {
+                    "from": "07:00:00",
+                    "to": "23:00:00"
+                  }
+                ],
+                "Everyday": true
+              }
+            ]
+          },
+          "Features": [
+            {
+              "id": "call_button",
+              "value": true,
+              "name": "кнопка вызова персонала",
+              "type": "bool"
+            },
+            {
+              "id": "wheelchair_access",
+              "value": [
+                {
+                  "id": "unavailable",
+                  "name": "недоступно"
+                }
+              ],
+              "name": "доступность входа на инвалидной коляске",
+              "type": "enum"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.59349,
+          55.826922
+        ]
+      },
+      "properties": {
+        "name": "Миа",
+        "description": "Большая Марфинская ул., 4, корп. 1, Москва, Россия",
+        "boundedBy": [
+          [
+            37.589527,
+            55.824369
+          ],
+          [
+            37.597738,
+            55.828991
+          ]
+        ],
+        "uri": "ymapsbm1://org?oid=1746694287",
+        "CompanyMetaData": {
+          "id": "1746694287",
+          "name": "Миа",
+          "address": "Москва, Большая Марфинская улица, 4к1",
+          "Address": {
+            "country_code": "RU",
+            "formatted": "Москва, Большая Марфинская улица, 4к1",
+            "postal_code": "",
+            "additional_info": "",
+            "Components": [
+              {
+                "kind": "country",
+                "name": "Россия"
+              },
+              {
+                "kind": "province",
+                "name": "Центральный федеральный округ"
+              },
+              {
+                "kind": "province",
+                "name": "Москва"
+              },
+              {
+                "kind": "locality",
+                "name": "Москва"
+              },
+              {
+                "kind": "street",
+                "name": "Большая Марфинская улица"
+              },
+              {
+                "kind": "house",
+                "name": "4, корп. 1"
+              }
+            ]
+          },
+          "Phones": [
+            {
+              "type": "phone",
+              "formatted": "+7 (499) 705-77-90"
+            }
+          ],
+          "Categories": [
+            {
+              "class": "drugstores",
+              "name": "Аптека"
+            }
+          ],
+          "Hours": {
+            "text": "пн-пт 09:00–22:00; сб,вс 10:00–21:00",
+            "Availabilities": [
+              {
+                "Intervals": [
+                  {
+                    "from": "09:00:00",
+                    "to": "22:00:00"
+                  }
+                ],
+                "Monday": true,
+                "Tuesday": true,
+                "Wednesday": true,
+                "Thursday": true,
+                "Friday": true
+              },
+              {
+                "Intervals": [
+                  {
+                    "from": "10:00:00",
+                    "to": "21:00:00"
+                  }
+                ],
+                "Saturday": true,
+                "Sunday": true
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.612282,
+          55.805761
+        ]
+      },
+      "properties": {
+        "name": "Фармлент Tdh",
+        "description": "Старомарьинское ш., 15, Москва, Россия",
+        "boundedBy": [
+          [
+            37.607817,
+            55.803757
+          ],
+          [
+            37.616027,
+            55.808381
+          ]
+        ],
+        "uri": "ymapsbm1://org?oid=1005192098",
+        "CompanyMetaData": {
+          "id": "1005192098",
+          "name": "Фармлент Tdh",
+          "address": "Москва, Старомарьинское шоссе, 15",
+          "Address": {
+            "country_code": "RU",
+            "formatted": "Москва, Старомарьинское шоссе, 15",
+            "postal_code": "127521",
+            "additional_info": "этаж 1",
+            "Components": [
+              {
+                "kind": "country",
+                "name": "Россия"
+              },
+              {
+                "kind": "province",
+                "name": "Центральный федеральный округ"
+              },
+              {
+                "kind": "province",
+                "name": "Москва"
+              },
+              {
+                "kind": "locality",
+                "name": "Москва"
+              },
+              {
+                "kind": "street",
+                "name": "Старомарьинское шоссе"
+              },
+              {
+                "kind": "house",
+                "name": "15"
+              }
+            ]
+          },
+          "Phones": [
+            {
+              "type": "phone",
+              "formatted": "+7 (495) 618-53-63"
+            }
+          ],
+          "Categories": [
+            {
+              "class": "drugstores",
+              "name": "Аптека"
+            },
+            {
+              "class": "malls",
+              "name": "Салон оптики"
+            }
+          ],
+          "Hours": {
+            "text": "ежедневно, круглосуточно",
+            "Availabilities": [
+              {
+                "TwentyFourHours": true,
+                "Everyday": true
+              }
+            ]
+          },
+          "Features": [
+            {
+              "id": "wheelchair_access",
+              "value": [
+                {
+                  "id": "full_access",
+                  "name": "доступно"
+                }
+              ],
+              "name": "доступность входа на инвалидной коляске",
+              "type": "enum"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.599472,
+          55.829415
+        ]
+      },
+      "properties": {
+        "name": "apteka.ru",
+        "description": "ул. Академика Комарова, 1А, Москва, Россия",
+        "boundedBy": [
+          [
+            37.595564,
+            55.826953
+          ],
+          [
+            37.603774,
+            55.831575
+          ]
+        ],
+        "uri": "ymapsbm1://org?oid=144171842222",
+        "CompanyMetaData": {
+          "id": "144171842222",
+          "name": "apteka.ru",
+          "address": "Москва, улица Академика Комарова, 1А",
+          "Address": {
+            "country_code": "RU",
+            "formatted": "Москва, улица Академика Комарова, 1А",
+            "postal_code": "127276",
+            "additional_info": "",
+            "Components": [
+              {
+                "kind": "country",
+                "name": "Россия"
+              },
+              {
+                "kind": "province",
+                "name": "Центральный федеральный округ"
+              },
+              {
+                "kind": "province",
+                "name": "Москва"
+              },
+              {
+                "kind": "locality",
+                "name": "Москва"
+              },
+              {
+                "kind": "street",
+                "name": "улица Академика Комарова"
+              },
+              {
+                "kind": "house",
+                "name": "1А"
+              }
+            ]
+          },
+          "Phones": [
+            {
+              "type": "phone",
+              "formatted": "+7 (495) 618-40-76"
+            },
+            {
+              "type": "phone",
+              "formatted": "8 (800) 700-88-88"
+            }
+          ],
+          "Categories": [
+            {
+              "class": "drugstores",
+              "name": "Аптека"
+            }
+          ],
+          "Hours": {
+            "text": "ежедневно, 09:00–21:00",
+            "Availabilities": [
+              {
+                "Intervals": [
+                  {
+                    "from": "09:00:00",
+                    "to": "21:00:00"
+                  }
+                ],
+                "Everyday": true
+              }
+            ]
+          },
+          "Features": [
+            {
+              "id": "wheelchair_access",
+              "value": [
+                {
+                  "id": "full_access",
+                  "name": "доступно"
+                }
+              ],
+              "name": "доступность входа на инвалидной коляске",
+              "type": "enum"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.637742,
+          55.808417
+        ]
+      },
+      "properties": {
+        "name": "Здоров.ру",
+        "description": "просп. Мира, 114, Москва, Россия",
+        "boundedBy": [
+          [
+            37.633787,
+            55.806155
+          ],
+          [
+            37.641998,
+            55.810779
+          ]
+        ],
+        "uri": "ymapsbm1://org?oid=225441445107",
+        "CompanyMetaData": {
+          "id": "225441445107",
+          "name": "Здоров.ру",
+          "address": "Москва, проспект Мира, 114",
+          "Address": {
+            "country_code": "RU",
+            "formatted": "Москва, проспект Мира, 114",
+            "postal_code": "",
+            "additional_info": "этаж 1",
+            "Components": [
+              {
+                "kind": "country",
+                "name": "Россия"
+              },
+              {
+                "kind": "province",
+                "name": "Центральный федеральный округ"
+              },
+              {
+                "kind": "province",
+                "name": "Москва"
+              },
+              {
+                "kind": "locality",
+                "name": "Москва"
+              },
+              {
+                "kind": "street",
+                "name": "проспект Мира"
+              },
+              {
+                "kind": "house",
+                "name": "114"
+              }
+            ]
+          },
+          "url": "https://zdorov.ru/",
+          "Phones": [
+            {
+              "type": "phone",
+              "formatted": "+7 (495) 363-35-00"
+            }
+          ],
+          "Categories": [
+            {
+              "class": "drugstores",
+              "name": "Аптека"
+            }
+          ],
+          "Hours": {
+            "text": "ежедневно, 07:00–23:00",
+            "Availabilities": [
+              {
+                "Intervals": [
+                  {
+                    "from": "07:00:00",
+                    "to": "23:00:00"
+                  }
+                ],
+                "Everyday": true
+              }
+            ]
+          },
+          "Features": [
+            {
+              "id": "wheelchair_access",
+              "value": [
+                {
+                  "id": "unavailable",
+                  "name": "недоступно"
+                }
+              ],
+              "name": "доступность входа на инвалидной коляске",
+              "type": "enum"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.62223,
+          55.824294
+        ]
+      },
+      "properties": {
+        "name": "Здесь аптека",
+        "description": "1-я Останкинская ул., 23, Москва, Россия",
+        "boundedBy": [
+          [
+            37.618282,
+            55.822063
+          ],
+          [
+            37.626493,
+            55.826685
+          ]
+        ],
+        "uri": "ymapsbm1://org?oid=72827716157",
+        "CompanyMetaData": {
+          "id": "72827716157",
+          "name": "Здесь аптека",
+          "address": "Москва, 1-я Останкинская улица, 23",
+          "Address": {
+            "country_code": "RU",
+            "formatted": "Москва, 1-я Останкинская улица, 23",
+            "postal_code": "129515",
+            "additional_info": "этаж 1",
+            "Components": [
+              {
+                "kind": "country",
+                "name": "Россия"
+              },
+              {
+                "kind": "province",
+                "name": "Центральный федеральный округ"
+              },
+              {
+                "kind": "province",
+                "name": "Москва"
+              },
+              {
+                "kind": "locality",
+                "name": "Москва"
+              },
+              {
+                "kind": "street",
+                "name": "1-я Останкинская улица"
+              },
+              {
+                "kind": "house",
+                "name": "23"
+              }
+            ]
+          },
+          "url": "https://zdesapteka.ru/",
+          "Phones": [
+            {
+              "type": "phone",
+              "formatted": "8 (800) 700-30-24"
+            }
+          ],
+          "Categories": [
+            {
+              "class": "drugstores",
+              "name": "Аптека"
+            }
+          ],
+          "Hours": {
+            "text": "ежедневно, 09:00–21:00",
+            "Availabilities": [
+              {
+                "Intervals": [
+                  {
+                    "from": "09:00:00",
+                    "to": "21:00:00"
+                  }
+                ],
+                "Everyday": true
+              }
+            ]
+          },
+          "Features": [
+            {
+              "id": "wheelchair_access",
+              "value": [
+                {
+                  "id": "full_access",
+                  "name": "доступно"
+                }
+              ],
+              "name": "доступность входа на инвалидной коляске",
+              "type": "enum"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
