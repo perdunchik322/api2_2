@@ -7,7 +7,7 @@ import json
 from get_distance import lonlat_distance
 
 
-def main():
+def apteka_data_photo():
     toponym_to_find = " ".join(sys.argv[1:])
 
     geocoder_api_server = "https://geocode-maps.yandex.ru/1.x/"
@@ -79,7 +79,3 @@ def main():
 
     response = requests.get(map_api_server, params=map_params)
     Image.open(BytesIO(response.content)).show()
-
-
-if __name__ == "__main__":
-    main()
