@@ -2,8 +2,6 @@ import sys
 from io import BytesIO
 import requests
 from PIL import Image
-import json
-
 from get_distance import lonlat_distance
 
 
@@ -25,59 +23,71 @@ def apteka_data_photo():
     target_point = (float(lon), float(lat))
 
     search_api_server = "https://search-maps.yandex.ru/v1/"
-    api_key = "dda3ddba-c9ea-4ead-9010-f43fbc15c6e3"
     search_params = {
-        "apikey": api_key,
+        "apikey": "dda3ddba-c9ea-4ead-9010-f43fbc15c6e3",
         "ll": address_ll,
         "text": "аптека",
         "lang": "ru_RU",
-        "type": "biz"
+        "type": "biz",
+        "results": 10
     }
 
     search_response = requests.get(search_api_server, params=search_params)
     search_response_json = search_response.json()
-
     organizations = search_response_json["features"]
 
-    min_distance = float('inf')
-    nearest_org = None
+    points = []
 
     for org in organizations:
         try:
             org_coords = org["geometry"]["coordinates"]
             org_point = (org_coords[0], org_coords[1])
             distance = lonlat_distance(target_point, org_point)
-
-            if distance < min_distance:
-                min_distance = distance
-                nearest_org = org
+            org_name = org["properties"]["CompanyMetaData"]["name"]
+            org_address = org["properties"]["CompanyMetaData"]["address"]
+            hours = org["properties"]["CompanyMetaData"].get("Hours", {}).get("text", "")
+            points.append([org_name, org_point, org_address, hours, distance])
         except:
             continue
 
-    if not nearest_org:
+    if not points:
         print("Аптеки не найдены")
         return
 
-    org_name = nearest_org["properties"]["CompanyMetaData"]["name"]
-    org_address = nearest_org["properties"]["CompanyMetaData"]["address"]
-    time_of_working = nearest_org["properties"]["CompanyMetaData"].get("Hours", {}).get("text", "Не указано")
-    distance_km = min_distance / 1000
+    points.sort(key=lambda x: x[4])
+    points = points[:10]
 
-    print(f"Название: {org_name}")
-    print(f"Адрес: {org_address}")
-    print(f"Время работы: {time_of_working}")
-    print(f"Расстояние: {distance_km:.1f} км")
+    pt_marks = [f"{lon},{lat},pm2rdm"]
 
-    org_point_coords = nearest_org["geometry"]["coordinates"]
-    org_point = f"{org_point_coords[0]},{org_point_coords[1]}"
+    for org in points:
+        org_name = org[0]
+        org_lon, org_lat = org[1]
+        org_address = org[2]
+        hours = org[3]
+        distance_km = org[4] / 1000
+
+        if not hours:
+            color = "pm2grm"
+        elif "круглосуточ" in hours.lower():
+            color = "pm2gnm"
+        else:
+            color = "pm2blm"
+
+        pt_marks.append(f"{org_lon},{org_lat},{color}")
+
+        print(f"Название: {org_name}")
+        print(f"Адрес: {org_address}")
+        print(f"Время работы: {hours if hours else 'Не указано'}")
+        print(f"Расстояние: {distance_km:.1f} км")
 
     map_api_server = "https://static-maps.yandex.ru/1.x/"
     map_params = {
         "l": "map",
-        "pt": f"{lon},{lat},ya_en~{org_point},pm2gnm",
+        "pt": "~".join(pt_marks)
     }
 
     response = requests.get(map_api_server, params=map_params)
     Image.open(BytesIO(response.content)).show()
+
 
 apteka_data_photo()
