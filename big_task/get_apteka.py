@@ -79,6 +79,7 @@ def apteka_data_photo():
         print(f"Адрес: {org_address}")
         print(f"Время работы: {hours if hours else 'Не указано'}")
         print(f"Расстояние: {distance_km:.1f} км")
+        print()
 
     map_api_server = "https://static-maps.yandex.ru/1.x/"
     map_params = {
