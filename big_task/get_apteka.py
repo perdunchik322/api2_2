@@ -74,8 +74,10 @@ def apteka_data_photo():
     map_api_server = "https://static-maps.yandex.ru/1.x/"
     map_params = {
         "l": "map",
-        "pt": f"{lon},{lat},pm2rdm~{org_point},pm2gnm",
+        "pt": f"{lon},{lat},ya_en~{org_point},pm2gnm",
     }
 
     response = requests.get(map_api_server, params=map_params)
     Image.open(BytesIO(response.content)).show()
+
+apteka_data_photo()
